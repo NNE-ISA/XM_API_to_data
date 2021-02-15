@@ -1,6 +1,7 @@
 from pydataxm import ReadDB
 import pandas as pd
 import datetime as dt
+import nombres_xm
 
 inven_met = {'Recursos': {'freq': ['Horaria', 'Diaria'],
                           'Horaria': {'var': {'Generacion Ideal': ['GeneIdea', 1],
@@ -115,11 +116,11 @@ inven_met = {'Recursos': {'freq': ['Horaria', 'Diaria'],
 
 instances = {'Recursos': {'Id': 'id', 'Values_Value1': 'tipo_despacho',
                                  'Values_Value2': 'tecnologia', 'Values_Value3': 'categoria',
-                                 'Values_code':'sub_mercado', 'datetime': 'fecha_hora',
+                                 'Values_code':'submercado', 'datetime': 'fecha_hora',
                                  'Values_Name': 'Combustible', 'Values_code':'sub_mercado', 'Date': 'fecha'
                           },
             'Recursos_Combinados':{'Id': 'id', 'Values_Name':'sub_mercado', 'Values_code': 'Combustible'},
-            'Agentes': {'Id': 'id', 'Values_code':'sub_mercado', 'datetime': 'fecha_hora'},
+            'Agentes': {'Id': 'id', 'Values_code':'submercado', 'datetime': 'fecha_hora'},
             'Sistema': {'Id': 'id',  'datetime': 'fecha_hora', 'Date': 'fecha'},
             'Rios': {'Id': 'id', 'Name': 'nombre','Date': 'fecha'},
             'Embalses': {'Id': 'id', 'Name': 'nombre', 'Date': 'fecha'},
@@ -220,23 +221,61 @@ def goodNames(d, item, freq):
     d = d.rename(columns=instances[item])
     return d
 
+def findData(item, item_list, sd, ed, freq, join_var):
+
+    d = joinInfo(item_list, sd, ed, freq, join_var)
+    d = goodNames(d, item, freq)
+
+    if item == 'Recursos':
+        names = nombres_xm.recursosDF()
+        vars_join = [i for i in list(names.columns) if i in list(d.columns)]
+        d = pd.merge(d, names, on= vars_join, how='left')
+    if item == 'Agentes':
+        names = nombres_xm.agentesDF()
+        vars_join = [i for i in list(names.columns) if i in list(d.columns)]
+        d = pd.merge(d, names, on= vars_join, how='left')
+
+    return d
+
 
 def xmQueryAPI(item, sd, ed, freq, var=[], save=False):
     global inven_met
+
     if not var:
         var = list(inven_met[item][freq]['var'].keys())
 
     join_var = inven_met[item][freq]['join_var']
     item_list = list([inven_met[item][freq]['var'][x] for x in var])
 
-
     if save:
-        if freq == 'Horaria':
-            delta = dt.timedelta(days=30)
-        if freq == 'Diaria':
-            delta = dt.timedelta(days=365)
-        d = queryConstrain(item_list, sd, ed, freq, delta, join_var)
+        d = findData(item, item_list, sd, ed, freq, join_var)
+        name = item + '_' + str(sd) + '__' + str(ed) + '.csv'
+        d.to_csv(name, index = False)
     else:
-        d = joinInfo(item_list, sd, ed, freq, join_var)
-    d = goodNames(d, item, freq)
+        d = findData(item, item_list, sd, ed, freq, join_var)
+
+    return d
+
+def manualQuery(sd, ed, save = False):
+    global inven_met
+    items = list(inven_met.keys())
+    tx = 'selecione la instancia ingresando el numero correspondiente =>      '
+    tx1 = str([item+': '+str(items.index(item)) for item in items])
+    item = items[int(input(tx+tx1))]
+    freqs = inven_met[item]['freq']
+    tx2 = str([freq+': '+str(freqs.index(freq)) for freq in freqs])
+    freq = freqs[int(input(tx+tx2))]
+    vbs = list(inven_met[item][freq]['var'].keys())
+    tx3 = str([var+': '+str(vbs.index(var)) for var in vbs])
+    var = input(tx+tx3)
+
+    ed = min(ed, dt.date.today())
+
+    if var:
+        var = [vbs[int(i)] for i in var.split(',')]
+    else:
+       var = []
+
+    d = xmQueryAPI(item, sd, ed, freq, var=var, save=save)
+
     return d
