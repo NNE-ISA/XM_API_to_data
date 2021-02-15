@@ -4,8 +4,7 @@ import xm_query as xq
 
 def main():
     data = xq.manualQuery()
-    print('\nRESULTADO: \n')
-    return data
+    print('\nPROCESO TERMINADO\n')
 
 if __name__ == '__main__':
     main()
