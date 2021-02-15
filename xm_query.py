@@ -142,6 +142,8 @@ tiempos = {'Values_Hour01': '00:00:00', 'Values_Hour02': '00:01:00',
            }
 
 
+
+
 def queryToTable(var, index, sd, ed, freq):
 
     query = ReadDB() # Conect with the API
