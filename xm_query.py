@@ -1,7 +1,6 @@
 from pydataxm import ReadDB
 import pandas as pd
 import datetime as dt
-import nombres_xm
 
 inven_met = {'Recursos': {'freq': ['Horaria', 'Diaria'],
                           'Horaria': {'var': {'Generacion Ideal': ['GeneIdea', 1],
@@ -227,11 +226,11 @@ def findData(item, item_list, sd, ed, freq, join_var):
     d = goodNames(d, item, freq)
 
     if item == 'Recursos':
-        names = nombres_xm.recursosDF()
+        names = pd.read_csv('https://raw.githubusercontent.com/NNE-ISA/XM_API_to_data/main/info_nombres/recursos.csv')
         vars_join = [i for i in list(names.columns) if i in list(d.columns)]
         d = pd.merge(d, names, on= vars_join, how='left')
     if item == 'Agentes':
-        names = nombres_xm.agentesDF()
+        names = pd.read_csv('https://raw.githubusercontent.com/NNE-ISA/XM_API_to_data/main/info_nombres/agentes.csv')
         vars_join = [i for i in list(names.columns) if i in list(d.columns)]
         d = pd.merge(d, names, on= vars_join, how='left')
 
