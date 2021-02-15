@@ -1,4 +1,3 @@
-from matplotlib.pyplot import axis
 import pandas as pd
 
 url = 'https://github.com/NNE-ISA/XM_API_to_data/blob/main/info_xm.xlsx?raw=true'
@@ -59,4 +58,3 @@ def agentesDF():
     agentes = excel.parse(sheet_name = 'agentes', header=0)
     agentes.columns = ['submercado', 'nombre',	'actividad', 'estado', 'inicio_operacion']
     return agentes
-
