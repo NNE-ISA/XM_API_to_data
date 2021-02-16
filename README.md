@@ -152,8 +152,7 @@ El codigo ene ste repositorio permite a descargar información sobre el Sistema 
 # Como se utiliza
 ------------------
 
-## Requerimientos previos
-
+### Requerimientos previos
 
 ~~~
 **software**
@@ -166,9 +165,12 @@ json
 request
 ~~~
 
+#### Obtener el código
+Devido a que no es un paquete oficial, para utilizar el código de este repositorio, primero se debe descargar el código como .zip (y descomprimirlo) o clonar el repositorio en la maquina local (En cuyo caso es necesario git).
+
+### Utilizar el codigo
+Para utilizar este codigo hay dos caminos, el primero, utilizando la linea de comandos y el segundo utilizando un editor de codigo que soporte Python.
+
+#### Con la linea de comandos
 
 
-
-
-
-Para utilizar el código de este repositorio, primero se debe descargar el código como .zip o clonar el repositorio en la maquina local, en el primer caso es necesario descomprim
