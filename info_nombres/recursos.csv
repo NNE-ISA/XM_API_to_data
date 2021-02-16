@@ -1,4 +1,4 @@
-Recurso ID,nombre,submercado,capacidad_efectiva,factor_conversion,es_menor,tipo_despacho,tipo_generacion,inicio_operacion,estado,nombre_agente,combustible,clasificacion
+Recurso ID,nombre_recurso,submercado,capacidad_efectiva,factor_conversion,es_menor,tipo_despacho,tipo_generacion,inicio_operacion,estado,nombre_agente,combustible,clasificacion
 Cog0001,COGENERADOR BIOAISE 1,BIOE,1,0,NO,NO DESPACHADO CENTRALMENTE,COGENERADOR,1998-01-08 00:00:00,INACTIVO,BIOAISE S.A.,GAS,COGENERADOR
 Cog0002,INCAUCA 1,INC1,10,0,NO,NO DESPACHADO CENTRALMENTE,COGENERADOR,10/21/1998 12:00:00 AM,OPERACION,NITRO ENERGY COLOMBIA S.A.S. E.S.P.,BAGAZO,COGENERADOR
 Cog0003,COGENERADOR INGENIO PROVIDENCIA 1,INP1,0,0,NO,NO DESPACHADO CENTRALMENTE,COGENERADOR,2006-01-12 00:00:00,INACTIVO,EMPRESA DE ENERGIA DEL PACIFICO S.A. E.S.P.,BIOMASA,COGENERADOR
