@@ -148,3 +148,17 @@ El codigo ene ste repositorio permite a descargar información sobre el Sistema 
 + En el caso de utilizar la consola pide lso datos uno a uno disminuyendo la posibilidadde consultas erroneas, ademas de guardar automaticamente la información como documento .csv
 + En el caso de utilizarla desde un notebook o un editor de cogido permite trabajar con ella en formato Dataframe
 
+
+# Como se utiliza
+------------------
+
+## Requerimientos
+
+~Python 3.x~
+
+
+
+
+
+
+Para utilizar el código de este repositorio, primero se debe descargar el código como .zip o clonar el repositorio en la maquina local, en el primer caso es necesario descomprim
