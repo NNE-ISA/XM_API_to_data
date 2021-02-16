@@ -155,7 +155,7 @@ El codigo ene ste repositorio permite a descargar información sobre el Sistema 
 ## Requerimientos previos
 
 
-~~
+~~~
 **software**
 Python 3.x
 
@@ -164,7 +164,7 @@ pandas
 datetime
 json
 request
-~~
+~~~
 
 
 
