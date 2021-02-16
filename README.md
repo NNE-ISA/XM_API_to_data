@@ -77,72 +77,22 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 <th>Nombre</th>
 </tr>
   
-<tr>
-<th rowspan="25">Sistema</th>
-<td rowspan="13">Horaria</td>
-<td>Generacion Ideal</td>
-<td>GeneIdea</td>         
-</tr>
+<tr><th rowspan="26">Sistema</th><td rowspan="13">Horaria</td>
+    <td>Generacion Ideal                 </td> <td>GeneIdea         </td></tr>
+<tr><td>Generacion Real                  </td> <td>Gene             </td></tr>
+<tr><td>Demanda Comercial                </td> <td>DemaCome         </td></tr>
+<tr><td>Precio de Bolsa Nacional         </td> <td>PrecBolsNaci     </td></tr>
+<tr><td>Máximo Precio de Oferta Nacional </td> <td>MaxPrecOferNal   </td></tr>
+<tr><td>Restricciones Aliviadas          </td> <td>RestAliv         </td></tr>
+<tr><td>Ventas en Contratos Energía      </td> <td>VentContEner     </td></tr>
+<tr><td>Compras en Contratos Energía     </td> <td>CompContEner     </td></tr>
+<tr><td>Compras en Bolsa Nacional Energía</td> <td>CompBolsNaciEner </td></tr>
+<tr><td>factor emision CO2e              </td> <td>factorEmisionCO2e</td></tr>
+<tr><td>Importaciones Energía            </td> <td>ImpoEner         </td></tr>
+<tr><td>Perdidas en Energia              </td> <td>PerdidasEner     </td></tr>
 
-<tr>
-<td>Generacion Real</td>    
-<td>Gene</td> 
-</tr>
-
-<tr>
-<td>Demanda Comercial</td>    
-<td>DemaCome</td>  
-</tr>
-
-<tr>
-<td>Precio de Bolsa Nacional</td>    
-<td>PrecBolsNaci</td>  
-</tr>
-  
-<tr>
-<td>Máximo Precio de Oferta Nacional</td>    
-<td>MaxPrecOferNal</td> 
-</tr>
-   
-<tr>
-<td>Restricciones Aliviadas</td> 
-<td>RestAliv</td> 
-</tr>
-
-<tr>
-<td>Ventas en Contratos Energía</td>    
-<td>VentContEner</td>  
-</tr><td>RestAliv</td>   
-
-   
-<tr>
-<td>Compras en Contratos Energía</td>    
-<td>CompContEner</td> 
-</tr>
-  
-<tr>
-<td>Compras en Bolsa Nacional Energía</td>    
-<td>CompBolsNaciEn</td> 
-</tr>
-
-<tr>
-<td>factor emision CO2e</td>    
-<td>factorEmisionC</td>O2e
-</tr>
-
-<tr>
-<td>Importaciones Energía</td>    
-<td>ImpoEner</td>   
-</tr>
-
-<tr>
-<td>Perdidas en Energia</td>    
-<td>PerdidasEner</td>  
-</tr>
-
-
-
-<tr><td rowspan="12">Diaria</td><td>Aportes Energia                           </td>  <td>AporEner          </td></tr>
+<tr><td rowspan="12">Diaria</td>
+    <td>Aportes Energia                           </td>  <td>AporEner          </td></tr>
 <tr><td>Precio de Escasez de Activacion           </td>  <td>PrecEscaAct       </td></tr>
 <tr><td>Remuneración Real Ind. Cargo Confiabilidad</td>  <td>RemuRealIndiv     </td></tr>
 <tr><td>Precio Promedio Contratos Regulado        </td>  <td>PrecPromContRegu  </td></tr>
@@ -155,6 +105,6 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 <tr><td>PRONE                                     </td>  <td>PRONE             </td></tr>
 <tr><td>FAER                                      </td>  <td>FAER              </td></tr>
 
-
+<tr><td>Anual</td> <td>Listado de recursos térmicos CEN por mes</td> <td>CapEfecNeta</td></tr>
 
 </table>
