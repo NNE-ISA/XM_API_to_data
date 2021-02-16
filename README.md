@@ -85,81 +85,57 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 </tr>
 
 <tr>
-<th></th>
-<td></td>
 <td>Generacion Real</td>    
 <td>Gene</td> 
 </tr>
 
 <tr>
-<th></th>
-<td></td>
 <td>Demanda Comercial</td>    
 <td>DemaCome</td>  
 </tr>
 
 <tr>
-<th></th>
-<td></td>
 <td>Precio de Bolsa Nacional</td>    
 <td>PrecBolsNaci</td>  
 </tr>
   
 <tr>
-<th></th>
-<td></td>
 <td>Máximo Precio de Oferta Nacional</td>    
 <td>MaxPrecOferNal</td> 
 </tr>
    
 <tr>
-<th></th>
-<td></td>
 <td>Restricciones Aliviadas</td> 
 <td>RestAliv</td> 
 </tr>
 
-
-
 <tr>
-<th></th>
-<td></td>
 <td>Ventas en Contratos Energía</td>    
 <td>VentContEner</td>  
 </tr><td>RestAliv</td>   
 
    
 <tr>
-<th></th>
-<td></td>
 <td>Compras en Contratos Energía</td>    
 <td>CompContEner</td> 
 </tr>
   
 <tr>
-<th></th>
-<td></td>
 <td>Compras en Bolsa Nacional Energía</td>    
 <td>CompBolsNaciEn</td> 
 </tr>
 
 <tr>
-<th></th>
-<td></td>
 <td>factor emision CO2e</td>    
 <td>factorEmisionC</td>O2e
 </tr>
 
 <tr>
-<th></th>
-<td></td>
 <td>Importaciones Energía</td>    
 <td>ImpoEner</td>   
 </tr>
 
 <tr>
-<th></th>
-<td></td>
 <td>Perdidas en Energia</td>    
 <td>PerdidasEner</td>  
 </tr>
