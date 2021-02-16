@@ -66,3 +66,46 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 |   Subareas     |   Diaria    | Demanda No Atendida Programada por Área        | DemaNoAtenProg      |
 |                |             | Demanda No Atendida No Programada por Área     | DemaNoAtenNoProg    |
 
+
+
+<table class="default">
+
+  <tr>
+
+    <th></th>
+
+    <th>Básico</th>
+
+    <th>Completo</th>
+
+  </tr>
+
+  <tr>
+
+    <th>Instalación</th>
+
+    <td rowspan="2">Gratis!</td>
+
+    <td>$49.99</td>
+
+  </tr>
+
+  <tr>
+
+    <th>Primer año</th>
+
+    <td>$19.99</td>
+
+  </tr>
+
+  <tr>
+
+    <th>Segundo año</th>
+
+    <td>$9.99</td>
+
+    <td>$29.99</td>
+
+  </tr>
+
+</table>
