@@ -17,7 +17,7 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 |                |             | factor emision CO2e                            |factorEmisionCO2e    |
 |                |             | Importaciones Energía                          |ImpoEner             |
 |                |             | Perdidas en Energia                            |PerdidasEner         |
-|    Sistema     |-------------|------------------------------------------------|---------------------|
+|    Sistema     |------------------------------------------------------------------------------------|
 |                |   Diaria    | Aportes Energia                                | AporEner            |
 |                |             | Precio de Escasez de Activacion                | PrecEscaAct         |
 |                |             | Remuneración Real Ind. Cargo Confiabilidad     | RemuRealIndiv       |
@@ -30,9 +30,9 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 |                |             | FAZNI                                          | FAZNI               |
 |                |             | PRONE                                          | PRONE               |
 |                |             | FAER                                           | FAER                |
-|                |-------------|------------------------------------------------|---------------------|
+|                |------------------------------------------------------------------------------------|
 |                |   Anual     | Listado de recursos térmicos CEN por mes       | CapEfecNeta         |
-|----------------|-------------|------------------------------------------------|---------------------|
+|----------------|------------------------------------------------------------------------------------|
 |                |             | Generación Ideal                               | GeneIdea            |
 |                |             | Generación Real                                | Gene                |
 |                |             | Cosumo de combustible Aprox. Factor de Emisión | ConsCombustibleMBTU |
@@ -40,30 +40,29 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 |    Recursos    |             | Emisiones CO2e                                 | EmisionesCO2Eq      |
 |                |             | Generación Seguridad                           | GeneSeguridad       |
 |                |             | Generación Fuera de Merito                     | GeneFueraMerito     |
-|                |-------------|------------------------------------------------|---------------------|
+|                |------------------------------------------------------------------------------------|
 |                |   Diaria    | Obligaciones de Energía Firme                  | ObligEnerFirme      |
-|----------------|-------------|------------------------------------------------|---------------------|
+|-----------------------------------------------------------------------------------------------------|
 |                |             | Consumo Comb Aprox                             | ConsCombAprox       |
 |    Recursos    |   Horaria   | Emisiones CO                                   | EmisionesCO2        |
 |   Combinados   |             | Emisiones CH                                   | EmisionesCH4        |
 |                |             | Emisiones N2                                   | EmisionesN2O        |
-|----------------|-------------|------------------------------------------------|---------------------|
+|-----------------------------------------------------------------------------------------------------|
 |                |             | Demanda Comercial                              | DemaCome            |
 |                |             | Ventas en Contratos Energía                    | VentContEner        |
 |    Agentes     |   Horaria   | Compras en Contratos Energía                   | CompContEner        |
 |                |             | Compras en Bolsa Nacional Energía              | CompBolsNaciEner    |
 |                |             | Demanda por Operador de Red                    | DemaOR              |
-|----------------|-------------|------------------------------------------------|---------------------|
+|-----------------------------------------------------------------------------------------------------|
 |      Rios      |   Diaria    | Aportes Energia                                | AporEner            |
 |                |             | Media Historica Aportes                        | AporEnerMediHist    |
-|----------------|-------------|------------------------------------------------|---------------------|
+|-----------------------------------------------------------------------------------------------------|
 |    Embalses    |   Diaria    | Volumen Util Diario en Energia                 | VoluUtilDiarEner    |
 |                |             | Capacidad Util Diaria en Energia               | CapaUtilDiarEner    |
-|----------------|-------------|------------------------------------------------|---------------------|
+|-----------------------------------------------------------------------------------------------------|
 |     Areas      |   Diaria    | Demanda No Atendida Programada por Área        | DemaNoAtenProg      |
 |                |             | Demanda No Atendida No Programada por Área     | DemaNoAtenNoProg    |
-|----------------|-------------|------------------------------------------------|---------------------|
+|-----------------------------------------------------------------------------------------------------|
 |   Subareas     |   Diaria    | Demanda No Atendida Programada por Área        | DemaNoAtenProg      |
 |                |             | Demanda No Atendida No Programada por Área     | DemaNoAtenNoProg    |
--------------------------------------------------------------------------------------------------------
 
