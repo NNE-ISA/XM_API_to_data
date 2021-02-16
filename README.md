@@ -70,15 +70,9 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 
 
 <table class="default">
-<tr>
-<th>Item</th>
-<th>Frecuencia</th>
-<th>Variable</th>
-<th>Nombre</th>
-</tr>
+<tr><th>Item</th> <th>Frecuencia</th> <th>Variable</th> <th>Nombre</th></tr>
   
-<tr><th rowspan="26">Sistema</th><td rowspan="13">Horaria</td>
-    <td>Generacion Ideal                 </td> <td>GeneIdea         </td></tr>
+<tr><th rowspan="26">Sistema</th> <td rowspan="12">Horaria</td> <td>Generacion Ideal</td> <td>GeneIdea</td></tr>
 <tr><td>Generacion Real                  </td> <td>Gene             </td></tr>
 <tr><td>Demanda Comercial                </td> <td>DemaCome         </td></tr>
 <tr><td>Precio de Bolsa Nacional         </td> <td>PrecBolsNaci     </td></tr>
@@ -91,8 +85,7 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 <tr><td>Importaciones Energía            </td> <td>ImpoEner         </td></tr>
 <tr><td>Perdidas en Energia              </td> <td>PerdidasEner     </td></tr>
 
-<tr><td rowspan="12">Diaria</td>
-    <td>Aportes Energia                           </td>  <td>AporEner          </td></tr>
+<tr><td rowspan="12">Diaria</td> <td>Aportes Energia</td>  <td>AporEner</td></tr>
 <tr><td>Precio de Escasez de Activacion           </td>  <td>PrecEscaAct       </td></tr>
 <tr><td>Remuneración Real Ind. Cargo Confiabilidad</td>  <td>RemuRealIndiv     </td></tr>
 <tr><td>Precio Promedio Contratos Regulado        </td>  <td>PrecPromContRegu  </td></tr>
