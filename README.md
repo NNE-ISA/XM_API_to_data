@@ -72,7 +72,7 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 <table class="default">
 <tr><th>Item</th> <th>Frecuencia</th> <th>Variable</th> <th>Nombre</th></tr>
   
-<tr><th rowspan="26">Sistema</th> <td rowspan="12">Horaria</td> <td>Generacion Ideal</td> <td>GeneIdea</td></tr>
+<tr><th rowspan="25">Sistema</th> <td rowspan="12">Horaria</td> <td>Generacion Ideal</td> <td>GeneIdea</td></tr>
 <tr><td>Generacion Real                  </td> <td>Gene             </td></tr>
 <tr><td>Demanda Comercial                </td> <td>DemaCome         </td></tr>
 <tr><td>Precio de Bolsa Nacional         </td> <td>PrecBolsNaci     </td></tr>
@@ -99,5 +99,42 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 <tr><td>FAER                                      </td>  <td>FAER              </td></tr>
 
 <tr><td>Anual</td> <td>Listado de recursos térmicos CEN por mes</td> <td>CapEfecNeta</td></tr>
+
+
+<tr><th rowspan="8">Recursos</th> <td rowspan="7">Horaria</td> <td>Generacion Ideal</td> <td>GeneIdea</td></tr>
+<tr><td>Generación Real                               </td> <td>Gene               </td></tr>
+<tr><td>Cosumo de combustible Aprox. Factor de Emisión</td> <td>ConsCombustibleMBTU</td></tr>
+<tr><td>Precio de Oferta del Despacho                 </td> <td>PrecOferDesp       </td></tr>
+<tr><td>Emisiones CO2e                                </td> <td>EmisionesCO2Eq     </td></tr>
+<tr><td>Generación Seguridad                          </td> <td>GeneSeguridad      </td></tr>
+<tr><td>Generación Fuera de Merito                    </td> <td>GeneFueraMerito    </td></tr>
+
+<tr><td>Diaria</td> <td>Obligaciones de Energía Firme</td> <td>ObligEnerFirme</td></tr>
+
+<tr><th rowspan="4">Recursos Combinados</th> <td rowspan="4">Horaria</td> <td>Consumo Comb Aprox</td> <td>ConsCombAprox</td></tr>
+<tr><td>Emisiones CO                              </td> <td>EmisionesCO2    </td></tr>
+<tr><td>Emisiones CH                              </td> <td>EmisionesCH4    </td></tr>
+<tr><td>Emisiones N2                              </td> <td>EmisionesN2O    </td></tr>
+
+<tr><th rowspan="5">Agentes</th> <td rowspan="5">Horaria</td> <td>Demanda Comercial</td> <td>DemaCome</td></tr>
+<tr><td>Ventas en Contratos Energía               </td> <td>VentContEner    </td></tr>
+<tr><td>Compras en Contratos Energía              </td> <td>CompContEner    </td></tr>
+<tr><td>Compras en Bolsa Nacional Energía         </td> <td>CompBolsNaciEner</td></tr>
+<tr><td>Demanda por Operador de Red               </td> <td>DemaOR          </td></tr>       
+
+<tr><th rowspan="2">Rios</th> <td rowspan="2">Diaria</td> <td>Aportes Energia</td> <td>AporEner</td></tr>
+<tr><td>Media Historica Aportes                   </td> <td>AporEnerMediHist</td></tr>
+
+<tr><th rowspan="2">Embalses</th> <td rowspan="2">Diaria</td> <td>Volumen Util Diario en Energia</td> <td>VoluUtilDiarEner</td></tr>
+<tr><td>Capacidad Util Diaria en Energia</td> <td>CapaUtilDiarEner</td></tr>
+
+<tr><th rowspan="2">Areas</th> <td rowspan="2">Diaria</td> <td>Demanda No Atendida Programada por Área</td> <td>DemaNoAtenProg</td></tr>
+<tr><td>Demanda No Atendida No Programada por Área</td> <td>DemaNoAtenNoProg</td></tr>
+
+<tr><th rowspan="2">Subareas</th> <td rowspan="2">Diaria</td> <td>Demanda No Atendida Programada por Subarea</td> <td>DemaNoAtenProg</td></tr>
+<tr><td>Demanda No Atendida No Programada por Subarea</td> <td>DemaNoAtenNoProg</td></tr>
+
+
+
 
 </table>
