@@ -1,6 +1,6 @@
 # XM_API_to_data
 
-El codigo ene ste repositorio permite a descargar información desde la API de XM utilizando Python, y la organiza en formato de tabla normalizada, por medio de la API se puede descargar información del sistema electríco Colombiano, organizada como se muestra en la siguiente tabla
+El codigo ene ste repositorio permite a descargar información sobre el Sistema electríco Colombiano, por medio de Python utilizando la API de XM, la información esta organizada como se muestra en la siguiente tabla.
 
 <!--- -------------------------------------------------------------------------------------------------------
 |     ITEM       |  FRECUENCIA |     INFORMACIÓN                                |  NOMBRE             |
@@ -134,7 +134,17 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 <tr><th rowspan="2">Subareas</th> <td rowspan="2">Diaria</td> <td>Demanda No Atendida Programada por Subarea</td> <td>DemaNoAtenProg</td></tr>
 <tr><td>Demanda No Atendida No Programada por Subarea</td> <td>DemaNoAtenNoProg</td></tr>
 
-
-
-
 </table>
+
+
+
+### Que hace este codigo sobre la información extraida de a API
++ Permite descargar información de varias variables a la vez
++ Organiza automaticamente los datos en formato de tabla normalizada, y cruza la información de las dititntas varaibles
++ Obtiene la información con los nombres de los nombres y no solamente con el codigo de sub mercado
++ Organiza la información en el formato correcto; las fechas como fechas, los números como números (originalmente todos son string)
+
+### En que formato se extrae la información
++ En el caso de utilizar la consola pide lso datos uno a uno disminuyendo la posibilidadde consultas erroneas, ademas de guardar automaticamente la información como documento .csv
++ En el caso de utilizarla desde un notebook o un editor de cogido permite trabajar con ella en formato Dataframe
+
