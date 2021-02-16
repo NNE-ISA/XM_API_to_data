@@ -71,25 +71,101 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 
 <table class="default">
 <tr>
+<th>Item</th>
+<th>Frecuencia</th>
+<th>Variable</th>
+<th>Nombre</th>
+</tr>
+  
+<tr>
+<th rowspan="12">Sistema</th>
+<td rowspan="12">Horaria</td>
+<td>Generacion Ideal</td>
+<td>GeneIdea</td>         
+</tr>
+
+<tr>
 <th></th>
-<th>Básico</th>
-<th>Completo</th>
-</tr>
-<tr>
-<th>Instalación</th>
-<td rowspan="2">Gratis!</td>
-<td>$49.99</td>
+<td></td>
+<td>Generacion Real</td>    
+<td>Gene</td> 
 </tr>
 
 <tr>
-<th>Primer año</th>
-<td>$19.99</td>
+<th></th>
+<td></td>
+<td>Demanda Comercial</td>    
+<td>DemaCome</td>  
 </tr>
+
 <tr>
-
-<th>Segundo año</th>
-<td>$9.99</td>
-<td>$29.99</td>
-
+<th></th>
+<td></td>
+<td>Precio de Bolsa Nacional</td>    
+<td>PrecBolsNaci</td>  
 </tr>
+  
+<tr>
+<th></th>
+<td></td>
+<td>Máximo Precio de Oferta Nacional</td>    
+<td>MaxPrecOferNal</td> 
+</tr>
+   
+<tr>
+<th></th>
+<td></td>
+<td>Restricciones Aliviadas</td> 
+<td>RestAliv</td> 
+</tr>
+
+
+
+<tr>
+<th></th>
+<td></td>
+<td>Ventas en Contratos Energía</td>    
+<td>VentContEner</td>  
+</tr><td>RestAliv</td>   
+
+   
+<tr>
+<th></th>
+<td></td>
+<td>Compras en Contratos Energía</td>    
+<td>CompContEner</td> 
+</tr>
+  
+<tr>
+<th></th>
+<td></td>
+<td>Compras en Bolsa Nacional Energía</td>    
+<td>CompBolsNaciEn</td> 
+</tr>
+
+<tr>
+<th></th>
+<td></td>
+<td>factor emision CO2e</td>    
+<td>factorEmisionC</td>O2e
+</tr>
+
+<tr>
+<th></th>
+<td></td>
+<td>Importaciones Energía</td>    
+<td>ImpoEner</td>   
+</tr>
+
+<tr>
+<th></th>
+<td></td>
+<td>Perdidas en Energia</td>    
+<td>PerdidasEner</td>  
+</tr>
+
+
+
+
+
 </table>
