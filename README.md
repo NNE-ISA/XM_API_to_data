@@ -78,8 +78,8 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 </tr>
   
 <tr>
-<th rowspan="12">Sistema</th>
-<td rowspan="12">Horaria</td>
+<th rowspan="25">Sistema</th>
+<td rowspan="13">Horaria</td>
 <td>Generacion Ideal</td>
 <td>GeneIdea</td>         
 </tr>
@@ -141,6 +141,19 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 </tr>
 
 
+
+<tr><td rowspan="12">Diaria</td><td>Aportes Energia                           </td>  <td>AporEner          </td></tr>
+<tr><td>Precio de Escasez de Activacion           </td>  <td>PrecEscaAct       </td></tr>
+<tr><td>Remuneración Real Ind. Cargo Confiabilidad</td>  <td>RemuRealIndiv     </td></tr>
+<tr><td>Precio Promedio Contratos Regulado        </td>  <td>PrecPromContRegu  </td></tr>
+<tr><td>Precio Promedio Contratos NO Regulado     </td>  <td>PrecPromContNoRegu</td></tr>
+<tr><td>Volumen Util Diario en Energia            </td>  <td>VoluUtilDiarEner  </td></tr>
+<tr><td>Demanda del SIN                           </td>  <td>DemaSIN           </td></tr>
+<tr><td>Capacidad Util Diaria en Energia          </td>  <td>CapaUtilDiarEner  </td></tr>
+<tr><td>Media Historica Aportes                   </td>  <td>AporEnerMediHist  </td></tr>
+<tr><td>FAZNI                                     </td>  <td>FAZNI             </td></tr>
+<tr><td>PRONE                                     </td>  <td>PRONE             </td></tr>
+<tr><td>FAER                                      </td>  <td>FAER              </td></tr>
 
 
 
