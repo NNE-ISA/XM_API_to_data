@@ -2,7 +2,7 @@
 
 El codigo ene ste repositorio permite a descargar información desde la API de XM utilizando Python, y la organiza en formato de tabla normalizada, por medio de la API se puede descargar información del sistema electríco Colombiano, organizada como se muestra en la siguiente tabla
 
--------------------------------------------------------------------------------------------------------
+<!--- -------------------------------------------------------------------------------------------------------
 |     ITEM       |  FRECUENCIA |     INFORMACIÓN                                |  NOMBRE             |
 |----------------|-------------|------------------------------------------------|---------------------|
 |                |             | Generacion Ideal                               |GeneIdea             |
@@ -65,6 +65,7 @@ El codigo ene ste repositorio permite a descargar información desde la API de X
 |-----------------------------------------------------------------------------------------------------|
 |   Subareas     |   Diaria    | Demanda No Atendida Programada por Área        | DemaNoAtenProg      |
 |                |             | Demanda No Atendida No Programada por Área     | DemaNoAtenNoProg    |
+-->
 
 
 
