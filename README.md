@@ -152,9 +152,19 @@ El codigo ene ste repositorio permite a descargar información sobre el Sistema 
 # Como se utiliza
 ------------------
 
-## Requerimientos
+## Requerimientos previos
 
-~Python 3.x~
+
+~~
+**software**
+Python 3.x
+
+**Paquetes**
+pandas
+datetime
+json
+request
+~~
 
 
 
