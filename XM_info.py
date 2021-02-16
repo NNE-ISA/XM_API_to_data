@@ -80,7 +80,7 @@ def manualQuery():
 
 
 def main():
-    xq.manualQuery()
+    manualQuery()
     print('\nPROCESO TERMINADO\n')
 
 if __name__ == '__main__':
