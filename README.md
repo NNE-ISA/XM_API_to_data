@@ -100,15 +100,19 @@ request
 #### Intalación
 Python se puede instalar de varias formas de instalar python y los paquetes necesarios
 + Desde la web oficial de [Python](https://www.python.org/downloads/)
-  + pip install pandas
-  + pip install datetime
-  + pip install json
-  + pip install request
+~~~
+pip install pandas
+pip install datetime
+pip install json
+pip install request
+~~~
 + Utilizando [Anaconda](https://www.anaconda.com/products/individual) o [miniconda](https://docs.conda.io/en/latest/miniconda.html)
-  + conda install pandas
-  + conda install datetime
-  + conda install json
-  + conda install request
+~~~
+conda install pandas
+conda install datetime
+conda install json
+conda install request
+~~~
 
 
 #### Obtener el código
