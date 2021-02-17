@@ -240,6 +240,8 @@ def findData(item, item_list, sd, ed, freq, join_var):
 def xmQueryAPI(item, sd, ed, freq, var=[], phat='./', save=False):
     global inven_met
 
+    print('Se inicia la consulta')
+
     if not var:
         var = list(inven_met[item][freq]['var'].keys())
 
@@ -248,10 +250,16 @@ def xmQueryAPI(item, sd, ed, freq, var=[], phat='./', save=False):
 
     if save:
         d = findData(item, item_list, sd, ed, freq, join_var)
-        name = phat + item + '_' + str(sd) + '__' + str(ed) + '.csv'
-        d.to_csv(name, index = False)
+        name = phat + '\\' + item + '_' + str(sd) + '__' + str(ed) + '.csv'
+
+        try:
+            d.to_csv(name, index = False)
+        except:
+            name = name.replace('\\','/')
+            d.to_csv(name, index = False)
+
         print('se ha guardado la información correctamente')
     else:
         d = findData(item, item_list, sd, ed, freq, join_var)
-
+        print('Se ha consultado al informaciónc on exito')
     return d
