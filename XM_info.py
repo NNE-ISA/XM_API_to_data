@@ -15,7 +15,8 @@ def selectDate():
 def selectPhat():
     exist_phat = False
     while exist_phat == False:
-        phat = input(input('ingrese la dirección de la carpeta donde quiere guardar la información'))
+        phat = input('¿donde quiere guardar la información?: ')
+        #print('E phat es %s y es de tipo %s' % (phat, type(phat)))
         try:
             os.chdir(phat)
         except:
