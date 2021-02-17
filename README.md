@@ -2,73 +2,6 @@
 
 El codigo ene ste repositorio permite a descargar información sobre el Sistema electríco Colombiano, por medio de Python utilizando la API de XM, la información esta organizada como se muestra en la siguiente tabla.
 
-<!--- -------------------------------------------------------------------------------------------------------
-|     ITEM       |  FRECUENCIA |     INFORMACIÓN                                |  NOMBRE             |
-|----------------|-------------|------------------------------------------------|---------------------|
-|                |             | Generacion Ideal                               |GeneIdea             |
-|                |             | Generacion Real                                |Gene                 |
-|                |             | Demanda Comercial                              |DemaCome             |
-|                |             | Precio de Bolsa Nacional                       |PrecBolsNaci         |
-|                |             | Máximo Precio de Oferta Nacional               |MaxPrecOferNal       |
-|                |   Horaria   | Restricciones Aliviadas                        |RestAliv             |
-|                |             | Ventas en Contratos Energía                    |VentContEner         |
-|                |             | Compras en Contratos Energía                   |CompContEner         |
-|                |             | Compras en Bolsa Nacional Energía              |CompBolsNaciEner     |                                              
-|                |             | factor emision CO2e                            |factorEmisionCO2e    |
-|                |             | Importaciones Energía                          |ImpoEner             |
-|                |             | Perdidas en Energia                            |PerdidasEner         |
-|    Sistema     |------------------------------------------------------------------------------------|
-|                |   Diaria    | Aportes Energia                                | AporEner            |
-|                |             | Precio de Escasez de Activacion                | PrecEscaAct         |
-|                |             | Remuneración Real Ind. Cargo Confiabilidad     | RemuRealIndiv       |
-|                |             | Precio Promedio Contratos Regulado             | PrecPromContRegu    |
-|                |             | Precio Promedio Contratos NO Regulado          | PrecPromContNoRegu  |
-|                |             | Volumen Util Diario en Energia                 | VoluUtilDiarEner    |
-|                |             | Demanda del SIN                                | DemaSIN             |
-|                |             | Capacidad Util Diaria en Energia               | CapaUtilDiarEner    |
-|                |             | Media Historica Aportes                        | AporEnerMediHist    |
-|                |             | FAZNI                                          | FAZNI               |
-|                |             | PRONE                                          | PRONE               |
-|                |             | FAER                                           | FAER                |
-|                |------------------------------------------------------------------------------------|
-|                |   Anual     | Listado de recursos térmicos CEN por mes       | CapEfecNeta         |
-|----------------|------------------------------------------------------------------------------------|
-|                |             | Generación Ideal                               | GeneIdea            |
-|                |             | Generación Real                                | Gene                |
-|                |             | Cosumo de combustible Aprox. Factor de Emisión | ConsCombustibleMBTU |
-|                |   Horaria   | Precio de Oferta del Despacho                  | PrecOferDesp        |
-|    Recursos    |             | Emisiones CO2e                                 | EmisionesCO2Eq      |
-|                |             | Generación Seguridad                           | GeneSeguridad       |
-|                |             | Generación Fuera de Merito                     | GeneFueraMerito     |
-|                |------------------------------------------------------------------------------------|
-|                |   Diaria    | Obligaciones de Energía Firme                  | ObligEnerFirme      |
-|-----------------------------------------------------------------------------------------------------|
-|                |             | Consumo Comb Aprox                             | ConsCombAprox       |
-|    Recursos    |   Horaria   | Emisiones CO                                   | EmisionesCO2        |
-|   Combinados   |             | Emisiones CH                                   | EmisionesCH4        |
-|                |             | Emisiones N2                                   | EmisionesN2O        |
-|-----------------------------------------------------------------------------------------------------|
-|                |             | Demanda Comercial                              | DemaCome            |
-|                |             | Ventas en Contratos Energía                    | VentContEner        |
-|    Agentes     |   Horaria   | Compras en Contratos Energía                   | CompContEner        |
-|                |             | Compras en Bolsa Nacional Energía              | CompBolsNaciEner    |
-|                |             | Demanda por Operador de Red                    | DemaOR              |
-|-----------------------------------------------------------------------------------------------------|
-|      Rios      |   Diaria    | Aportes Energia                                | AporEner            |
-|                |             | Media Historica Aportes                        | AporEnerMediHist    |
-|-----------------------------------------------------------------------------------------------------|
-|    Embalses    |   Diaria    | Volumen Util Diario en Energia                 | VoluUtilDiarEner    |
-|                |             | Capacidad Util Diaria en Energia               | CapaUtilDiarEner    |
-|-----------------------------------------------------------------------------------------------------|
-|     Areas      |   Diaria    | Demanda No Atendida Programada por Área        | DemaNoAtenProg      |
-|                |             | Demanda No Atendida No Programada por Área     | DemaNoAtenNoProg    |
-|-----------------------------------------------------------------------------------------------------|
-|   Subareas     |   Diaria    | Demanda No Atendida Programada por Área        | DemaNoAtenProg      |
-|                |             | Demanda No Atendida No Programada por Área     | DemaNoAtenNoProg    |
--->
-
-
-
 <table class="default">
 <tr><th>Item</th> <th>Frecuencia</th> <th>Variable</th> <th>Nombre</th></tr>
   
@@ -164,6 +97,19 @@ datetime
 json
 request
 ~~~
+#### Intalación
+Python se puede instalar de varias formas de instalar python y los paquetes necesarios
++ Desde la web oficial de [Python](https://www.python.org/downloads/)
+  + pip install pandas
+  + pip install datetime
+  + pip install json
+  + pip install request
++ Utilizando [Anaconda](https://www.anaconda.com/products/individual) o [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+  + conda install pandas
+  + conda install datetime
+  + conda install json
+  + conda install request
+
 
 #### Obtener el código
 Devido a que no es un paquete oficial, para utilizar el código de este repositorio, primero se debe descargar el código como .zip (y descomprimirlo) o clonar el repositorio en la maquina local (En cuyo caso es necesario git).
@@ -172,5 +118,5 @@ Devido a que no es un paquete oficial, para utilizar el código de este reposito
 Para utilizar este codigo hay dos caminos, el primero, utilizando la linea de comandos y el segundo utilizando un editor de codigo que soporte Python.
 
 #### Con la linea de comandos
-
+Existen 
 
